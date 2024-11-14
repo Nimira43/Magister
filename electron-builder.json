@@ -1,6 +1,7 @@
 {
-  "appId": "com.nimiratech.magister",
+  "appId": "com.nimiratech. magister",
   "files": ["dist-electron", "dist-react"],
+  "icon": "./logo/magister-logo.png",
   "mac": {
     "target": "dmg"
   },
