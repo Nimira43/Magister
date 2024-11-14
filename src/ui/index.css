@@ -33,7 +33,12 @@ h1 {
   font-family: 'Amatic SC', sans-serif;
   font-weight: 700;
   font-size: 40px;
-  text-shadow: 2px 2px 1px var(--light);
+  text-shadow: 1px 1px 1px var(--light);
   background-color: var(--dark);
+  padding: 20px;
+}
+
+p {
+  font-size: 22px;
   padding: 20px;
 }
