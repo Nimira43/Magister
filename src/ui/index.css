@@ -3,4 +3,37 @@
 * {
   font-family: 'League Spartan', sans-serif;
   font-weight: 300;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+
+:root {
+  --primary: #ff4500;
+  --secondary: #87ceeb;
+  --dark: #111;
+  --light: #fffaf0;
+  --grey-xdk: #222;
+  --grey-dk: #333;
+  --grey-md: #888;
+  --grey-lg: #ccc;
+  --grey-xlg: #eee;
+}
+
+body {
+  background-color: var(--grey-xdk);
+  color: var(--light);
+}
+
+h1 {
+  color: var(--primary);
+  font-family: 'Amatic SC', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-shadow: 2px 2px 1px var(--light);
+  background-color: var(--dark);
+  padding: 20px;
 }
